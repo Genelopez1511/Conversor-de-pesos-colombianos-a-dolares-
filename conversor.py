@@ -9,29 +9,20 @@ Elige una opción: """
 
 opcion = int(input(menu))
 
+def conversion():
+    pesos = float(input("Cuantos pesos tienes?: "))
+    dolares = round ((pesos / trm),2)
+    dolares = str(dolares)
+    print("Tienes $" + dolares + " dólares")
+
 if opcion == 1:
-    pesos = input("Cuantos pesos colombianos tienes?: ")
-    pesos = float(pesos)
-    valor_dolar = 3875
-    dolares = pesos / valor_dolar
-    dolares = round(dolares, 2)
-    dolares = str(dolares)
-    print("Tienes $" + dolares + " dólares")
+    trm = 3.834
+    conversion()
 elif opcion == 2:
-    pesos = input("Cuantos pesos argentinos tienes?: ")
-    pesos = float(pesos)
-    valor_dolar = 65
-    dolares = pesos / valor_dolar
-    dolares = round(dolares, 2)
-    dolares = str(dolares)
-    print("Tienes $" + dolares + " dólares")
+    trm = 97.48
+    conversion()
 elif opcion == 3:
-    pesos = input("Cuantos pesos mexicanos tienes?: ")
-    pesos = float(pesos)
-    valor_dolar = 24
-    dolares = pesos / valor_dolar
-    dolares = round(dolares, 2)
-    dolares = str(dolares)
-    print("Tienes $" + dolares + " dólares")
+    trm = 20.20
+    conversion()
 else:
     print("Ingresa una opcion correcta")
