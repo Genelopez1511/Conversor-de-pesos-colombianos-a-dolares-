@@ -33,3 +33,8 @@
 # sumatoria = suma(1, 4)
 # print (sumatoria)
     
+# valores = [1, 3, 4, 8]
+# if 5 in valores:
+#     print('esta en valores')
+# else:
+#     print('No esta intenta otro numero')    

@@ -25,11 +25,22 @@
 #     print ("escoge una opcion valida")
 
 
-def suma(a,b):
-    print("suma de dos numeros")
-    resultado = a + b
-    return resultado
+# def suma(a,b):
+#     print("suma de dos numeros")
+#     resultado = a + b
+#     return resultado
 
-    sumatoria = suma(1, 4)
-    print (sumatoria)
-    
+#     sumatoria = suma(1, 4)
+#     print (sumatoria)
+# print('Hola como vas??')
+# nombre = input("ingresa tu nombre > ")
+# edad = int(input('Ingresa tu edad > '))
+# print('Hola', nombre, 'Encantada de conocerte, tu edad es', edad)
+# print('hasta luego!')
+
+# numero = 0
+# print('tabla del 3')
+# while numero <= 10 :
+#     print(f"{numero * 3}")
+#     numero += 1
+# print("fin")
