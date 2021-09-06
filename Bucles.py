@@ -38,15 +38,24 @@
 # Este codigo repetido se puede resolver con el cilo While (Mientras) de la siguiente forma:
 
 
-def run():
-    LIMITE = 1000000
+# def run():
+#     LIMITE = 1000000
 
-    contador = 0
-    potencia_2 = 2**contador
-    while potencia_2 < LIMITE:
-        print('2 elevado a ' + str(contador) + ' es igual a: ' + str(potencia_2))
-        contador = contador + 1
-        potencia_2 = 2**contador
+#     contador = 0
+#     potencia_2 = 2**contador
+#     while potencia_2 < LIMITE:
+#         print('2 elevado a ' + str(contador) + ' es igual a: ' + str(potencia_2))
+#         contador = contador + 1
+#         potencia_2 = 2**contador
 
-if __name__=="__main__":
-    run()
+# if __name__=="__main__":
+#     run()
+
+a = 0
+
+while a<101:
+    a = a + 1 #a = a+1
+    if a % 2 == 0:
+        continue
+    print(a)
+print("fin")
